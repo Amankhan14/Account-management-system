@@ -71,7 +71,7 @@ df
 df['Hour'].value_counts().sort_index()
 
 #Top 3 Most Common Crime Types
-df['Cridme_Type'].value_counts().head(3)
+df['Crime_Type'].value_counts().head(3)
 
 # Areas with Highest Crime Reports
 df['Area'].value_counts().head(10)
